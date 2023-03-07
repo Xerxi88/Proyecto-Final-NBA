@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sergio Jiménez">
+    <title>NBA Now</title>
+    <link rel="icon" type="image/x-icon" href="img/nba_icon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/script.js"></script>
+    <!-- Librería jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Librería jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/nba_icon.png" alt="NBA" width="50px">NBA NOW</a>
+        <nav>
+            <ul>
+                <li><a href="#">Games</a></li>
+                <li><a href="/legends.html">Legends</a></li>
+                <li><a href="/nbaShop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="containerShields">
+            <section class="shields">
+                <div>
+                    <img src="./img/shields/nba-atlanta-hawks-logo.png" alt="Atlanta" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-boston-celtics-logo.png" alt="Boston" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-brooklyn-nets-logo.png" alt="Brooklyn" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-charlotte-hornets-logo.png" alt="Charlotte" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-chicago-bulls-logo.png" alt="Chicago" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-cleveland-cavaliers-logo.png" alt="Cleveland" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-dallas-mavericks-logo.png" alt="Dallas" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-denver-nuggets-logo-2018.png" alt="Denver" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-detroit-pistons-logo.png" alt="Detroit" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-golden-state-warriors-logo-2020.png" alt="Golden State" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-houston-rockets-logo-2020.png" alt="Houston" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/indiana-pacers-logo-symbol.png" alt="Indiana" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-la-clippers-logo.png" alt="LA Clippers" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-los-angeles-lakers-logo.png" alt="LA Lakers" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-memphis-grizzlies-logo.png" alt="Memphis" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-miami-heat-logo.png" alt="Miami" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-milwaukee-bucks-logo.png" alt="Milwaukee" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-minnesota-timberwolves-logo.png" alt="Minnesota" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-new-orleans-pelicans-logo.png" alt="New Orleans" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-new-york-knicks-logo.png" alt="New York" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-oklahoma-city-thunder-logo.png" alt="Oklahoma" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-orlando-magic-logo.png" alt="Orlando" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-philadelphia-76ers-logo.png" alt="Philadelphia" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-phoenix-suns-logo.png" alt="Phoenix" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-portland-trail-blazers-logo.png" alt="Portland" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-sacramento-kings-logo.png" alt="Sacramento" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-san-antonio-spurs-logo.png" alt="San Antonio" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-toronto-raptors-logo-2020.png" alt="Toronto" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-utah-jazz-logo.png" alt="Utah" width="50px">
+                </div>
+                <div>
+                    <img src="./img/shields/nba-washington-wizards-logo.png" alt="Washington" width="50px">
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <div class="data">
+               <div id="icon"><svg viewBox="-13.75 -13.75 52.50 52.50" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000" stroke-width="0.00025"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:#ff7900;}</style> </defs> <g data-name="calendar date" id="calendar_date"> <path class="cls-1" d="M22.5,3H21V2a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1V3H14V2a1,1,0,0,0-1-1H12a1,1,0,0,0-1,1V3H7V2A1,1,0,0,0,6,1H5A1,1,0,0,0,4,2V3H2.5A1.5,1.5,0,0,0,1,4.5v18A1.5,1.5,0,0,0,2.5,24h20A1.5,1.5,0,0,0,24,22.5V4.5A1.5,1.5,0,0,0,22.5,3ZM19,2l1,0,0,3L19,5ZM12,2l1,0V3.44s0,0,0,.06,0,0,0,.07L13,5,12,5ZM5,2,6,2,6,5,5,5ZM2.5,4H4V5A1,1,0,0,0,5,6H6A1,1,0,0,0,7,5V4h4V5a1,1,0,0,0,1,1H13a1,1,0,0,0,1-1V4h4V5a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1V4h1.5a.5.5,0,0,1,.5.5V8H2V4.5A.5.5,0,0,1,2.5,4Zm20,19H2.5a.5.5,0,0,1-.5-.5V9H23V22.5A.5.5,0,0,1,22.5,23Z"></path> <path class="cls-1" d="M20.5,15h-6a.5.5,0,0,0-.5.5v5a.5.5,0,0,0,.5.5h6a.5.5,0,0,0,.5-.5v-5A.5.5,0,0,0,20.5,15ZM20,20H15V16h5Z"></path> <path class="cls-1" d="M6.5,11h-2a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h2a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,6.5,11ZM6,13H5V12H6Z"></path> <path class="cls-1" d="M10.5,11h-2a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h2a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,10.5,11ZM10,13H9V12h1Z"></path> <path class="cls-1" d="M6.5,16h-2a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h2a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,6.5,16ZM6,18H5V17H6Z"></path> <path class="cls-1" d="M10.5,16h-2a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h2a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,10.5,16ZM10,18H9V17h1Z"></path> <path class="cls-1" d="M14.5,14h2a.5.5,0,0,0,.5-.5v-2a.5.5,0,0,0-.5-.5h-2a.5.5,0,0,0-.5.5v2A.5.5,0,0,0,14.5,14Zm.5-2h1v1H15Z"></path> <path class="cls-1" d="M20.5,11h-2a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h2a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,20.5,11ZM20,13H19V12h1Z"></path> </g> </g></svg></div>
+                <input type="date" id="fecha">
+            </div>
+            <div class="results">
+                    <div class="containerScore"></div>
+            </div>
+        </div>
+        <template id="template-game">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>Total</th>
+                        <th>State</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <div class="versus">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png"
+                            alt="" width="40px"><span>VS</span>
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png"
+                            alt="" width="40px">
+                    </div>
+                    <tr>
+                        <td class="team"><img src="" alt="" width="40px"> Boston Celtics</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Finished</td>
+                    </tr>
+                    <tr>
+                        <td class="team"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png" alt="" width="40px">Detroid Pistons</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </template>
+        <template id="template-game-empty">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>Total</th>
+                        <th>State</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <div class="versus">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png"
+                            alt="" width="40px"><span>VS</span>
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png"
+                            alt="" width="40px">
+                    </div>
+                    <tr>
+                        <td class="team"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png" alt="" width="40px"> Boston Celtics</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Finished</td>
+                    </tr>
+                    <tr>
+                        <td class="team"><img src="" alt="" width="40px">Detroid Pistons</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </template>
+    </main>
+    <footer>
+        <div class="footer"><p class="m-0 text-center text-white">Copyright &copy; Website NBA 2023</p></div>
+    </footer>
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>

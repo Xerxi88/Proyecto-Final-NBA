@@ -1,0 +1,170 @@
+
+body{
+    margin: auto;
+    height: 100vh;
+    background-image: url(/img/Medidas-de-la-cancha-de-basquetbol6.jpg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    
+}
+
+a{
+    margin: 50px;
+    color: white;
+    font-size: 3em;
+}
+
+.fondo{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 60%, rgba(255, 255, 255, 0) 100%);
+}
+.images{
+    display: flex;
+}
+.jordan{
+    width: 40%;
+    position: absolute;
+    top:150px;
+    left:30%;
+    opacity: 0;
+}
+.transicion{
+    opacity: 1;
+    top:100px;
+    transition: all 1.5s ease-out;
+    transition-delay: 2s;
+}
+.right{
+    width: 30%;
+    position: absolute;
+    top:80px;
+    left:51.5%;
+    opacity: 0;
+}
+.transicionRight{
+    opacity: 1;
+    left:50%;
+    transition: all 2s ease-out;
+    transition-delay: 1s;
+}
+.left{
+    width: 20%;
+    position: absolute;
+    top:50px;
+    left:29%;
+    opacity: 0;
+}
+.transicionLeft{
+    opacity: 1;
+    left:30.5%;
+    transition: all 3s ease-out;
+    transition-delay: 0.5s;
+}
+
+main{
+    background-color: black;
+    height: 9500px;
+}
+article{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1,h2,p{
+    color: white; 
+    padding: 0px 5px;  
+    line-height: 18px;
+}
+.caja{
+    position: relative;
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+    background-color:rgb(165, 87, 42);
+    z-index: 1;
+
+}
+.marco{
+    display: flex;
+}
+
+.leftPlayer{
+    position: absolute;
+    left: 50px;
+    margin-left: 20px;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+
+}
+.rightPlayer{
+    position: absolute;
+    left: 65%;
+    margin-left: 20px;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+
+}
+
+.kidd{
+    top:700px;
+}
+.bonPetit{
+    top: 1200px;
+}
+.west{
+    top:1700px;
+}
+.jordanM{
+    top:2200px;
+}
+.kobe{
+    top:2900px;
+}
+.barry{
+    top:3400px ;
+}
+.allen{
+    top: 4000px ;
+}
+.duncan{
+    top:4500px;
+}
+.abdul{
+    top:5000px;
+}
+.bird{
+    top:5500px;
+}
+.shaq{
+    top:6200px;
+}
+.pippen{
+    top:6900px;
+}
+.magic{
+    top:7400px;
+}
+.nash{
+    top:8000px;
+}
+.garnet{
+    top:8500px;
+}
+.pierce{
+    top:9200px;
+}
+
+
+
+.transicionBodyLeft{
+    left: 80px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+.transicionBodyRight{
+    left: 62%;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
